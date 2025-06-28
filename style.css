@@ -6,15 +6,15 @@ body {
     background-color: rgb(66, 65, 65);
 }
 @font-face {
-    font-family: 'horst'; /* Remove the space before the name */
-    src: url('Horst___.ttf'); /* Wrap the filename in quotes */
+    font-family: 'horst'; 
+    src: url('Horst___.ttf'); 
 }
 
 header {
     background-color: black;
     border: 2px solid black;
     color: white;
-    font-family: 'horst'; /* Add a semicolon */
+    font-family: 'horst'; 
 }
 
 input {
