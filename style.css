@@ -1,0 +1,59 @@
+body {
+    text-align: center;
+    align-items: center;
+    margin:0px;
+    padding:0px;
+    background-color: rgb(66, 65, 65);
+}
+@font-face {
+    font-family: 'horst'; /* Remove the space before the name */
+    src: url('Horst___.ttf'); /* Wrap the filename in quotes */
+}
+
+header {
+    background-color: black;
+    border: 2px solid black;
+    color: white;
+    font-family: 'horst'; /* Add a semicolon */
+}
+
+input {
+    width: 60%;
+    height: 60px;
+    text-align: center;
+    position: sticky;
+    z-index: 999;
+}
+
+#delbtn{
+    margin-left: 80%;
+    background-color: red;
+    padding: 6px;
+    color: white;
+    border-radius: 5px;
+}
+
+
+textarea{
+    background-color: grey;
+    border-radius:  5px;
+    color: white;
+    text-align: center;
+}
+
+.pr {
+background-color: black;
+color: white;
+}
+
+.box1 {
+    margin-top:70px;
+    text-align: center;
+}
+.box2 {
+    margin :0px
+}
+
+p {
+  white-space: pre-wrap;
+}
